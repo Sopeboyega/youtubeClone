@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <style>
+        .profilepreview {
+            display: inline-block; /* Change display to inline-block */
+            width: 30px; /* Set a fixed width for each card */
+            margin-right: 20px; /* Add some margin between cards */
+            vertical-align: top; /* Align cards to the top */
+        }
+
+        .pr ofiledetails {
+            display: block;
+            width: calc(100% - 320px); /* Adjust width to accommodate profile picture */
+        }
+
+        .mutal,
+        .addfriend,
+        .name {
+            font-family: Roboto;
+        }
+
+        .profilepicture {
+            width: 180px;
+        }
+
+        .name {
+            font-size: 15px;
+            margin-top: 5px;
+            margin-bottom: 2px;
+        }
+
+        .profilepicturemini {
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            margin-right: 7.5px;
+            margin-top: 2px;
+        }
+
+        .mutal {
+            display: inline-block;
+            vertical-align: top;
+            margin-top: 6px;
+            font-size: 14px;
+            color: gray;
+        }
+
+        .addfriend {
+            padding: 7px 8px;
+            background-color:#1877f2 ;
+            border: none;
+            border-radius: 6px;
+            color: white;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <!-- First profile code starts here -->
+    <div class="profilepreview">
+        <img class="profilepicture" src="exercisethumbnails/03_28_Chloe_Kim.png">
+    </div>
+    <div class="profiledetails">
+        <div class="profilename">
+            <h3 class="name">
+                Chloe
+            </h3>
+        </div>
+        <div>
+            <img class="profilepicturemini" src="exercisethumbnails/03_28_Chloe_Kim.png">
+            <div class="mutal">5 mutual friends</div>
+        </div>
+        <div>
+            <button class="addfriend">Add Friend</button>
+        </div>
+    </div>
+
+    <!-- Second profile code starts here -->
+    <div class="profilepreview">
+        <img class="profilepicture" src="exercisethumbnails/0203_FNFoundation.png" alt="Profile picture">
+    </div>
+    <div class="profiledetails">
+        <div class="profilename">
+            <h3 class="name">
+                Dwanye
+            </h3>
+        </div>
+        <div>
+            <img class="profilepicturemini" src="exercisethumbnails/0203_FNFoundation.png">
+            <div class="mutal">
+                20 mutual friends
+            </div>
+        </div>
+        <div>
+            <button class="addfriend">
+                Add Friend
+            </button>
+        </div>
+    </div>
+
+    <!-- Third profile code starts here -->
+    <div class="profilepreview">
+        <img class="profilepicture" src="exercisethumbnails/RoboRecall.png" alt="Profile picture">
+    </div>
+    <div class="profiledetails">
+        <div class="profilename">
+            <h3 class="name">
+                Dwanye
+            </h3>
+        </div>
+        <div>
+            <img class="profilepicturemini" src="exercisethumbnails/RoboRecall.png">
+            <div class="mutal">
+                20 mutual friends
+            </div>
+        </div>
+        <div>
+            <button class="addfriend">
+                Add Friend
+            </button>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,78 @@
+.videotitle {
+    font-weight: bold;
+    margin-top: 0;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+
+.channelpicture {
+    display: inline-block;
+    width: 50px;
+    vertical-align: top;
+}
+
+.videostats,
+.videoauthor {
+    font-size: 12px;
+    color: grey;
+}
+
+.videoauthor {
+    margin-bottom: 6px;
+}
+
+.videoinfo {
+    display: inline-block;
+    width: 200px;
+}
+
+.tekkz {
+  width: 100%;
+  border-radius: 20px;
+   
+}
+
+.profilepicture {
+    width: 40px;
+    border-radius: 50px;
+}
+
+.thumbnailrow {
+    margin-bottom: 8px;
+    position: relative;
+    width:100%
+}
+
+.videogrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 40px;
+    margin: 12px;
+}
+
+@media (max-width: 750px) {
+    .videogrid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 1000px) {
+    .videogrid {
+        grid-template-columns:  1fr 1fr 1fr 1fr;
+    }
+}
+
+.videotime {
+    background-color:black ;
+    color: white;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 4px 4px;
+    border-radius: 2.5px;
+
+}

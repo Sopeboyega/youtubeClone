@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox exercise</title>
+</head>
+<style>
+    .flexboxthree,
+    .flexboxtwo,
+    .flexbox{
+     display: flex;
+flex-direction: row;
+    }
+
+    .flexboxtwo{
+        padding-top: 10px;
+    }
+
+    .flexboxthree {
+        padding-top: 15px;
+        justify-content: space-between;
+    }
+
+</style>
+<body>
+    <div class="flexbox">
+        <div style="background-color: lightblue;
+        width: 200px;">200px</div>
+        <div style="background-color: lightpink;
+        width: 75px;">75px</div>
+    </div>
+    <div class="flexboxtwo">
+        <div style="background-color: lightblue;
+        width: 50px;">item1</div>
+        <div style="background-color: lightpink;
+        flex: 1;">item2</div>
+        <div style="background-color: lightblue;
+        width: 75px;">item3</div>
+    </div>
+    <div class="flexboxthree">
+        <div style="background-color: lightblue;
+        flex: 1;">item1</div>
+        <div style="background-color: lightpink;
+        flex: 1;">item2</div>
+        <div style="background-color: lightblue;
+        flex: 1;">item3</div>
+        <div style="background-color: lightblue;
+        flex: 1;">item4</div>
+    </div>
+</body>
+</html>

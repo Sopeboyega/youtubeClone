@@ -1,0 +1,50 @@
+.cartbutton {
+    background-color: rgb(255,216,20);
+    border: none;
+    border-radius: 15px;
+    padding: 8px 20px;
+    transition: 0.3s ease;
+}
+
+.cartbutton:hover{
+    background-color: rgb(224, 192, 32);
+}
+
+.cartbutton:active{
+opacity: 0.5;
+
+}
+.buybutton {
+background-color: rgb(255,164,28);
+border:none;
+border-radius: 15px;
+padding: 8px 30px;
+margin-left: 7px;
+}
+
+.buybutton:hover{
+background-color: rgb(218, 140, 23);
+}
+
+.buybutton:active {
+opacity: 0.4;
+
+}
+
+.price {
+color: rgb(0,218,0);
+
+}
+
+.Productname {
+font-size: 25px;
+
+}
+
+.link {
+color: rgb(0,113,133);
+}
+
+.link:hover{
+    color: red;
+}

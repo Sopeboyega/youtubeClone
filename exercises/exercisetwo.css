@@ -1,0 +1,105 @@
+/*Syntax for CSS designs
+selector(Can be either elements,classes,Id,atrribute) {
+property1:value1;
+property2:value2;
+
+
+}
+*/
+
+
+
+
+
+.Uberbutton {
+    padding-top: 12px;
+    padding-bottom: 12px;
+   padding-left: 20px;
+    padding-right: 20px;
+    background-color: black;
+    border: none;
+    color: white;
+    font-family: Arial,;
+    cursor:pointer;
+    transition: 0.15s;
+}
+/*Hover is a psuedo class 
+And there are others like active
+visited,focus*/
+.Uberbutton:hover {
+    opacity: 0.8;
+}
+
+.Amazon {
+background-color: rgb(252, 214, 25);
+border: none;
+padding: 8px 40px;
+font-weight: bold;
+font-family: Arial;
+margin-left: 30px;
+border-radius: 20px;
+transition: 0.15s;
+}
+
+.Amazon:hover {
+    background-color: rgb(224, 192, 32);
+}
+.Github {
+font-family: Roboto;
+    padding: 8px 11px;
+border-radius: 4px;
+border: none;
+background-color: rgb(93, 179, 93);
+color: white;
+font-size: 13px;
+font-weight: bold;
+margin-left: 8px;
+transition: box-shadow 0.3s ease;
+}
+
+.Github:hover {
+box-shadow: 0px 5px 10px rgba(0,0, 0, 0.3);
+/*Here i am creating a shadow under button with a 
+zero horizontal offset,5px vertical offset and a blur radius of 10px
+the last number in the rgba(alpha specifies the opacity. */
+}
+
+button {
+    cursor: pointer;
+}
+
+.Bootstrap {
+    font-family: roboto;
+    border: none;
+    padding: 12px 22px;
+    display: inline-block;
+    border-radius: 5px;
+    background-color: rgb(143, 82, 201);
+    color: white;
+    margin-top: 5px;
+    transition: 0.3 ease;
+}
+
+.Bootstrap:hover {
+    background-color: rgb(109, 62, 153);
+}
+
+.BootstrapDownload {
+    font-family: roboto;
+    font-weight: bold;
+    border-width: 1px;
+    border-color:rgb(143, 82, 201) ;
+    padding: 12px 22px;
+    display: inline-block;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(143, 82, 201);
+    margin-top: 5px;
+    transition: 0.3s ease;
+}
+
+.BootstrapDownload:hover {
+color: white;
+background-color: grey;
+}
+

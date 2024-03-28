@@ -1,0 +1,192 @@
+.header {
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    background-color: white;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(109, 109, 109);
+    z-index: 1;
+}
+
+.notificationsicon{
+height: 24px;
+}
+
+.notificationscontainer{
+    position: relative;
+}
+
+.notificationscount{
+    position: absolute;
+    top: -2px;
+    right: -5px;
+    background-color: rgb(200, 0, 0);
+    color: white;
+    font-family: Roboto;
+    font-size: 11px;
+    padding: 2px 5px;
+    border-radius: 16px;
+}
+
+.Searchbox {
+    flex: 1;
+    height: 36px;
+    font-size: 16px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(185, 184, 184);
+    border-radius: 2px;
+    box-shadow: inset 1px 2px 5px rgba(0,0,0,0.05);
+    width: 0;
+}
+
+.Searchbox::placeholder {
+    font-family: Roboto;
+    font-size: 15px;
+    padding-left: 6px;
+}
+.left-section{
+align-items: center;
+display: flex;
+}
+
+.right-section {
+    width: 200px;
+    display: flex;
+    align-items: center;
+    /*Creates even spaces btw them*/
+    justify-content: space-between;
+    margin-right: 20px;
+   /*Cancels the auto shrink of flex box*/
+    flex-shrink: 0;
+}
+
+.middle-section {
+    flex: 1;
+    margin-left: 70px;
+    margin-right: 35px;
+    max-width: 500px;
+    display: flex;
+    align-items: center;
+}
+.searchicon {
+    height: 25px;
+}
+.menu{
+    height: 25px;
+    margin: 0px 20px;
+
+}
+.youtubelogo{
+    height: 20px;
+}
+/*Margin set to -1 means is pulling instead of pusshing*/
+.searchbutton {
+    height: 40px;
+    width: 66px;
+    background-color: rgb(240, 240, 240);
+   border-width: 1px;
+   border-style: solid;
+   border-color: rgb(185, 184, 184) ;
+   margin-left: -1px;
+   margin-right: 10px;
+}
+
+.notificationscontainer,
+.appscontainer,
+.searchbutton,
+.voicebutton,
+.uploadiconcontainer {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+.appscontainer .tooltip,
+.uploadiconcontainer .tooltip,
+.searchbutton .tooltip,
+.voicebutton .tooltip {
+    font-family:Roboto ;
+    position: absolute;
+    background-color: gray;
+    color:white ;
+padding: 4px 8px;
+border-radius: 2px;
+font-size: 12px;
+bottom: -30px;
+opacity: 0; 
+transition: opacity 0.3s; 
+pointer-events: none;
+white-space: nowrap;
+}
+
+
+
+.ntooltip {
+font-family:Roboto ;
+position: absolute;
+background-color: gray;
+color:white ;
+padding: 4px 8px;
+border-radius: 2px;
+font-size: 12px;
+bottom: -30px;
+opacity: 0;
+transition: opacity 0.3s; 
+pointer-events: none;
+white-space: nowrap; 
+}
+
+
+
+
+.ntooltip:hover,
+.appscontainer:hover .tooltip,
+.uploadiconcontainer:hover .tooltip,
+.searchbutton:hover .tooltip,
+.voicebutton:hover .tooltip {
+    opacity: 1;
+}
+
+.voicebutton {
+    background-color: rgb(248, 248, 248);
+    margin-bottom: 3px;
+}
+
+.voicebutton{
+    height: 40px; 
+    width: 40px;
+    border-radius: 20px;
+    border: none;
+}
+
+.uploadicon {
+    height: 24px;
+}
+
+.youtubeappsicon{
+    height: 24px;
+}
+
+.notificationsicon {
+    height: 23px;
+    margin-top: 4px;
+}
+
+.profilepictureicon{
+    height: 32px;
+    border-radius: 16px;
+}
